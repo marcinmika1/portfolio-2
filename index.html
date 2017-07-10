@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div id="container">
-        <header class="upHeader"> logo i telefon </header>
-        
+        <header class="upHeader"> 
+        <h1>logo</h1>
+        <h2>telefon</h2>
+        </header>
+
         <section class="content">
-        
-        <article class="rightContent">
-            <form action="submit">
-                
-            </form>
-        </article>
+
+            <article class="rightContent">
+                <form action="submit">
+                    <label for="name">Twoje imię i nazwisko </label><br>
+                    <input id="name" name="imie" type="text"><br>
+                     <label for="telephon">Nr telefonu</label><br>
+                    <input id="telephon" name="phone" type="tel"><br>
+                    <label for="e-mail">Twój adres e-mail </label><br>
+                    <input id="e-mail" name="email" type="email"><br><br>
+                    <input type="radio" name="gender" value="male" checked> Male
+                    <input type="radio" name="gender" value="female">br
+                     Female <br><br>
+                    <input type="checkbox" name="agreement" value> wyrażam zgodę na ...
+                </form>
+            </article>
         </section>
-        
+
         <footer>opis</footer>
-        
+
     </div>
 </body>
+
 </html>
